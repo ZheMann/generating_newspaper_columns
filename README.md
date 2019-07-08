@@ -20,14 +20,14 @@ This repo consists of three language models based on GPT-2's Small/Medium archit
 ## Datasets
 We used the following datasources to fine-tune the language models:
 1. Dutch Newspaper columns (2MB)
-2. Dutch Wikipedia-pages (2.9GB) by our custom [wiki-scraper](https://github.com/ZheMann/wiki-scraper)
+2. Dutch Wikipedia-pages (2.9GB) by the implementation of a custom [wiki-scraper](https://github.com/ZheMann/wiki-scraper)
 3. Dutch E-books (24MB) by 
 
 ## Training Model 1 or Model 2
-1.1 Access the pre-trained models through [this](https://drive.google.com/open?id=1j40vMmzc8sJnrDlLYELd_DvmyS9ktyUk) link
-1.2 Right-click on the 'checkpoint' directory and select 'Add to my Drive'.
-2. Open [this](https://drive.google.com/open?id=1iwsGZJqctjoVK-i5FwGhijYFPBCHxRx2) file in Google Colaboratory
-3. Follow the steps 
+1. Access the pre-trained models through [this](https://drive.google.com/open?id=1j40vMmzc8sJnrDlLYELd_DvmyS9ktyUk) link
+2. Right-click on the 'checkpoint' directory and select 'Add to my Drive'.
+3. Open [this](https://drive.google.com/open?id=1iwsGZJqctjoVK-i5FwGhijYFPBCHxRx2) file in Google Colaboratory
+4. Follow the steps 
 
 ## About this repository
 This repository is built to perform the experiments during my Research Internship as a first year master student in Computing Science (April 2019 - July 2019).  The experiment consisted of generating texts by three differently trained language models, as mentioned in Language Models.
