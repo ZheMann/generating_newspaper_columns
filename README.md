@@ -4,9 +4,9 @@ This repository is used to fine-tune [GPT-2](https://github.com/openai/gpt-2) in
 2. Fine-tuning GPT-2 models from scratch, i.e. without any prior training.
 
 ## Requirements
-1. Colaboratory
+* Colaboratory
 
-### 1. Colaboratory 
+### Colaboratory 
 Log into your Google Account and go to Google Drive. Click on the New button on the left and then on 'More'. If:
 a) 'Colaboratory' appears in the list, you do not have to do anything
 b) 'Colaboratory' does not appear in the list, click on Connect more apps, search for Colaboratory and install it
