@@ -25,7 +25,9 @@ We used the following datasources to fine-tune the language models:
 
 ## Training Model 1 or Model 2
 1. Access the pre-trained models through [this](https://drive.google.com/open?id=1j40vMmzc8sJnrDlLYELd_DvmyS9ktyUk) link
-2. Right-click on the 'checkpoint' directory and select 'Add to my Drive'.
+2. Right-click on the 'checkpoint' directory and select 'Add to my Drive'
+3. Access the encoded [datasets](https://drive.google.com/open?id=1M2eTDu_v-3EtHQr6FErhnSL4eTxB8xPp) datasets
+4. Right-click on the 'encoded_books_columns_wiki' directory and select 'Add to my Drive'
 3. Open [this](https://drive.google.com/open?id=1iwsGZJqctjoVK-i5FwGhijYFPBCHxRx2) file in Google Colaboratory
 4. Follow the steps 
 
