@@ -25,15 +25,16 @@ We used the following datasets to fine-tune the language models:
 
 ## Training GPT-2 345M Pre-trained models
 It is necessary to execute nexts steps if you want to train either Model 1 or Model 2:
-1. Access the pre-trained models through [this](https://drive.google.com/open?id=1j40vMmzc8sJnrDlLYELd_DvmyS9ktyUk) link
-2. Right-click on the 'checkpoint' directory and select 'Add to my Drive'
-3. Access the encoded [datasets](https://drive.google.com/open?id=1hn3c25BRF_VnBFrVoGQ4ubHsvE1IPWWK) datasets
-4. Right-click on the 'encoded_data' directory and select 'Add to my Drive'
+1. [Access](https://drive.google.com/open?id=1j40vMmzc8sJnrDlLYELd_DvmyS9ktyUk) the models and add them to your Drive by right-clicking on the 'checkpoint' directory and selecting 'Add to my Drive'
+2. [Access](https://drive.google.com/open?id=1hn3c25BRF_VnBFrVoGQ4ubHsvE1IPWWK) the encoded datasets and add them to your Drive by right-clicking on the 'encoded_data' directory and selecting 'Add to my Drive'
 
-**Important Note:** You only need to execute the steps above once, since you have to save the directories 'checkpoint' and 'encoded_data' to your Google Drive.
+**Important Note:** Normally, you will only need to execute the steps above once. Unless you remove the models and datasets from your Drive.
 
 ### Model 1
 1. Access the [Colaboratory Notebook](https://drive.google.com/open?id=1MY52FsRrsaeNColEQcWhdQZXCTrxY3Ie) to fine-tune Model 1.
+2. Perform Step 1 and its sub-steps
+3. Perform Step 2 and its sub-steps to let the model generate samples
+4. Perform Step 3 and its sub-steps to fine-tune the model on the encoded datasets
 
 
 ### Model 2
@@ -41,4 +42,4 @@ It is necessary to execute nexts steps if you want to train either Model 1 or Mo
 
 
 ## About this repository
-This repository is built to perform the experiments during my Research Internship as a first year master student in Computing Science (April 2019 - July 2019).  The experiment consisted of generating texts by three differently trained language models, as mentioned in Language Models.
+This repository is built to support my Research Internship as a first year master student in Computing Science (April 2019 - July 2019).  During this research an experiment is performed, consisting of generating texts by three differently trained language models, as discussed in previous sections.
