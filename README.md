@@ -19,14 +19,14 @@ This repo consists of three language models based on GPT-2's Small/Medium archit
 
 ## Training GPT-2 345M Pre-trained models
 It is necessary to execute nexts steps if you want to train either Model 1 or Model 2:
-1. [Access](https://drive.google.com/open?id=1j40vMmzc8sJnrDlLYELd_DvmyS9ktyUk) the models and add them to your Drive by right-clicking on the 'checkpoint' directory and selecting 'Add to my Drive'
-2. [Access](https://drive.google.com/open?id=1hn3c25BRF_VnBFrVoGQ4ubHsvE1IPWWK) the encoded datasets and add them to your Drive by right-clicking on the 'encoded_data' directory and selecting 'Add to my Drive'
+1. Access the [models](https://drive.google.com/open?id=1j40vMmzc8sJnrDlLYELd_DvmyS9ktyUk) and add them to your Drive by right-clicking on the 'checkpoint' directory and selecting 'Add to my Drive'
+2. Access the [encoded datasets](https://drive.google.com/open?id=1hn3c25BRF_VnBFrVoGQ4ubHsvE1IPWWK) and add them to your Drive by right-clicking on the 'encoded_data' directory and selecting 'Add to my Drive'
 
 **Important Note:** Normally, you will only need to execute the steps above once. Unless you remove the models and datasets from your Drive.
 
 ### Model 1
 To generate samples or to fine-tune Model 1:
-1. Open this [Colaboratory Notebook](https://drive.google.com/open?id=1MY52FsRrsaeNColEQcWhdQZXCTrxY3Ie) in Colaboratory.
+1. Open the [Colaboratory Notebook](https://drive.google.com/open?id=1MY52FsRrsaeNColEQcWhdQZXCTrxY3Ie) in Colaboratory.
 2. Make a copy of this Notebook (File -> Save a copy in Drive). This will open a copy in a new tab.
 3. Reset all runtimes to prevent unwanted behaviour (Runtie -> Reset all runtimes..)
 4. Perform Step 1 and its sub-steps
@@ -35,7 +35,20 @@ To generate samples or to fine-tune Model 1:
 
 ### Model 2
 To generate samples or to fine-tune Model 2:
-1. Open this [Colaboratory Notebook](https://drive.google.com/open?id=1muynamuFB-RS7FsHu0iNMLDVQ8g2fuAr) in Colaboratory.
+1. Open the [Colaboratory Notebook](https://drive.google.com/open?id=1muynamuFB-RS7FsHu0iNMLDVQ8g2fuAr) in Colaboratory.
+2. Make a copy of this Notebook (File -> Save a copy in Drive). This will open a copy in a new tab.
+3. Reset all runtimes to prevent unwanted behaviour (Runtie -> Reset all runtimes..)
+4. Perform Step 1 and its sub-steps
+5. Perform Step 2 and its sub-steps to let the model generate samples
+6. Perform Step 3 and its sub-steps to fine-tune the model on the encoded datasets
+
+## Training GPT-2 117M From scratch models
+1. Access the [model]() and add them to your Drive by right-clicking on the 'checkpoint' directory and selecting 'Add to my Drive'
+2. Access the [encoded datasets](https://drive.google.com/open?id=1hn3c25BRF_VnBFrVoGQ4ubHsvE1IPWWK) and add them to your Drive by right-clicking on the 'encoded_data' directory and selecting 'Add to my Drive'
+
+### Model 3
+To generate samples or to fine-tune Model 3:
+1. Open the [Colaboratory Notebook]() in Colaboratory.
 2. Make a copy of this Notebook (File -> Save a copy in Drive). This will open a copy in a new tab.
 3. Reset all runtimes to prevent unwanted behaviour (Runtie -> Reset all runtimes..)
 4. Perform Step 1 and its sub-steps
