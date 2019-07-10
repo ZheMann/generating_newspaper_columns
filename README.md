@@ -43,12 +43,12 @@ To generate samples or to fine-tune Model 2:
 6. Perform Step 3 and its sub-steps to fine-tune the model on the encoded datasets
 
 ## Training GPT-2 117M From scratch models
-1. Access the [model]() and add them to your Drive by right-clicking on the 'checkpoint' directory and selecting 'Add to my Drive'
-2. Access the [encoded datasets](https://drive.google.com/open?id=1hn3c25BRF_VnBFrVoGQ4ubHsvE1IPWWK) and add them to your Drive by right-clicking on the 'encoded_data' directory and selecting 'Add to my Drive'
+1. Access the [model](https://drive.google.com/open?id=1mHfMEn5MLVVOVIo2E5NDxS4GQClgUY0o) and add them to your Drive by right-clicking on the 'checkpoint' directory and selecting 'Add to my Drive'. This directory also contains the encoded datasets.
+2. Access the [raw datasets](https://drive.google.com/open?id=17GnJC7I_l_XkQKbRtYFXvtnnpRvsmGxF) and add them to your Drive by right-clicking on the 'encoded_data' directory and selecting 'Add to my Drive'
 
 ### Model 3
 To generate samples or to fine-tune Model 3:
-1. Open the [Colaboratory Notebook]() in Colaboratory.
+1. Open the [Colaboratory Notebook](https://drive.google.com/open?id=1zyulaQ2yZ_eh97UngrgEW9AcXby9fD_P) in Colaboratory.
 2. Make a copy of this Notebook (File -> Save a copy in Drive). This will open a copy in a new tab.
 3. Reset all runtimes to prevent unwanted behaviour (Runtie -> Reset all runtimes..)
 4. Perform Step 1 and its sub-steps
