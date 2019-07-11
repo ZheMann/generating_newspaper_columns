@@ -54,6 +54,7 @@ To generate samples or to fine-tune Model 3:
 4. Perform Step 1 and its sub-steps
 5. Perform Step 2 and its sub-steps to let the model generate samples
 6. Perform Step 3 and its sub-steps to fine-tune the model on the encoded datasets
+7. Perform Step 4 and its sub-steps to see how to the SentencePiece model is trained as well as how the datasets are encoded
 
 ## Datasets used
 We used the following datasets to fine-tune the language models:
