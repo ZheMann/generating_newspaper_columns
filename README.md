@@ -1,7 +1,8 @@
 # Generating Dutch Newspaper Columns
-This repository is used to fine-tune two different types of [GPT-2](https://github.com/openai/gpt-2), namely:
-1. Fine-tuning pre-trained models of GPT-2
-2. Fine-tuning GPT-2 models from scratch, i.e. without any prior training.
+This repo consists of three language models based on [GPT-2](https://github.com/openai/gpt-2)'s Small/Medium architecture, fine-tuned in different ways. These models can be used to generate samples, but they are also available for futher research/fine-tuning. The following language models are provided:
+* Model 1. GPT-2 Medium (345M) pre-trained. Fine-tuned on a small dataset (2MB) for 30k training steps ~ 25 hours
+* Model 2. GPT-2 Medium (345M) pre-trained. Fine-tuned on a large dataset (2.9GB) for 100k training steps ~ 3.5 days
+* Model 3. GPT-2 Small (117M) from scratch. Fine-tuned on a large dataset (2.9GB) for 300k training steps ~ 4.2 days
 
 ## Requirements
 * Colaboratory
@@ -10,12 +11,6 @@ This repository is used to fine-tune two different types of [GPT-2](https://gith
 Log into your Google Account and go to Google Drive. Click on the New button on the left and then on 'More'. If:
 a) 'Colaboratory' appears in the list, you do not have to do anything
 b) 'Colaboratory' does not appear in the list, click on Connect more apps, search for Colaboratory and install it
-
-## Language Models
-This repo consists of three language models based on GPT-2's Small/Medium architecture, fine-tuned in different ways. These models can be used to generate samples, but they are also available for futher research/fine-tuning. The following language models are provided:
-* Model 1. GPT-2 Medium (345M) pre-trained. Fine-tuned on a small dataset (2MB) for 30k training steps ~ 25 hours
-* Model 2. GPT-2 Medium (345M) pre-trained. Fine-tuned on a large dataset (2.9GB) for 100k training steps ~ 3.5 days
-* Model 3. GPT-2 Small (117M) from scratch. Fine-tuned on a large dataset (2.9GB) for 300k training steps ~ 4.2 days
 
 ## Training GPT-2 345M Pre-trained models
 It is necessary to execute nexts steps if you want to train either Model 1 or Model 2:
@@ -59,10 +54,19 @@ To generate samples or to fine-tune Model 3:
 7. Perform Step 4 and its sub-steps to see how to the SentencePiece model is trained as well as how the datasets are encoded
 
 ## Datasets used
-We used the following datasets to fine-tune the language models:
-1. Dutch Newspaper columns (2MB) 
-2. Dutch Wikipedia-pages (2.9GB) by the implementation of a custom [wiki-scraper](https://github.com/ZheMann/wiki-scraper)
-3. Dutch E-books (24MB) by a [Colaboratory Notebook](https://drive.google.com/open?id=1WCkbCMCay9a4NaUv7boAJjfCQ10JKUjv)
+We used the following datasets to fine-tune the language models, which can be accessed [here](https://drive.google.com/open?id=17GnJC7I_l_XkQKbRtYFXvtnnpRvsmGxF):
+1. Dutch newspaper columns (2MB) 
+2. Dutch Wikipedia-pages (2.9GB)
+3. Dutch e-books (24MB)
+
+### Dutch newspaper columns (2MB)
+These newspaper columns were provided by a collaborating journalist during this research. The body of each columns is extracted and concatenated into a single text-file. Due to inconsistency between columns, most pre-processing is done manually.
+
+### Dutch Wikipedia-pages (2.9GB)
+We built our own [wiki-scraper](https://github.com/ZheMann/wiki-scraper) to extract information from Wikipedia. The wiki-scraper ran for several days untill 2.4M out of 2.6M pages were downloaded. The text of all pages is concatenated into a single text-file.
+
+### Dutch e-books (24MB)
+Project Gutenborg provides free, mostly older, e-books in several languages from which the copyright has expired. For this, we built a [Colaboratory Notebook](https://drive.google.com/open?id=1WCkbCMCay9a4NaUv7boAJjfCQ10JKUjv) to download all books for the Dutch language, to extract the right files and to concatenate the books into a single text-file. In addition, we had to manually remove English disclaimers from each book.
 
 ## About this repository
 This repository is built to support my Research Internship as a first year master student in Computing Science (April 2019 - July 2019).  During this research an experiment is performed, consisting of generating texts by three differently trained language models, as discussed in previous sections.
