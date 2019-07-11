@@ -1,5 +1,5 @@
 # Generating Dutch Newspaper Columns
-This repo consists of three language models based on [GPT-2](https://github.com/openai/gpt-2)'s Small/Medium architecture, fine-tuned in different ways. These models can be used to generate samples, but they are also available for futher research/fine-tuning. The following language models are provided:
+This repository consists of three language models based on [GPT-2](https://github.com/openai/gpt-2)'s Small/Medium architecture, fine-tuned in different ways. These models can be used to generate samples, but they are also available for futher research/fine-tuning. The following language models are provided:
 * Model 1. GPT-2 Medium (345M) pre-trained. Fine-tuned on a small dataset (2MB) for 30k training steps ~ 25 hours
 * Model 2. GPT-2 Medium (345M) pre-trained. Fine-tuned on a large dataset (2.9GB) for 100k training steps ~ 3.5 days
 * Model 3. GPT-2 Small (117M) from scratch. Fine-tuned on a large dataset (2.9GB) for 300k training steps ~ 4.2 days
