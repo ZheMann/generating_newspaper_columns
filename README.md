@@ -68,7 +68,7 @@ We used the following datasets to fine-tune the language models, which can be ac
 These newspaper columns were provided by a collaborating journalist during this research. The bodies of all columns are extracted and concatenated into a single text-file. Due to inconsistency between columns, most pre-processing is done manually.
 
 ### Dutch Wikipedia-pages (2.9GB)
-We built our own [wiki-scraper](https://github.com/ZheMann/wiki-scraper) to extract information from Wikipedia. The wiki-scraper ran for several days untill 2.4M out of 2.6M pages were downloaded. The text of all pages is concatenated into a single text-file.
+We built our own [wiki-scraper](https://github.com/ZheMann/wiki-scraper) to extract information from Wikipedia. We downloaded 2.4M out of 2.6M Wiki-pages in a couple of days. Then, we concatenated the text of all pages into a single text-file.
 
 ### Dutch e-books (24MB)
 Project Gutenborg provides free, mostly older, e-books in several languages from which the copyright has expired. For this, we built a [Colaboratory Notebook](https://drive.google.com/open?id=1WCkbCMCay9a4NaUv7boAJjfCQ10JKUjv) to download all books for the Dutch language, to extract the right files and to concatenate the books into a single text-file. In addition, we had to manually remove English disclaimers from each book.
