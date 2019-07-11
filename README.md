@@ -46,6 +46,8 @@ To generate samples or to fine-tune Model 2:
 1. Access the [model](https://drive.google.com/open?id=1mHfMEn5MLVVOVIo2E5NDxS4GQClgUY0o) and add them to your Drive by right-clicking on the 'checkpoint' directory and selecting 'Add to my Drive'. This directory also contains the encoded datasets.
 2. Access the [raw datasets](https://drive.google.com/open?id=17GnJC7I_l_XkQKbRtYFXvtnnpRvsmGxF) and add them to your Drive by right-clicking on the 'encoded_data' directory and selecting 'Add to my Drive'. These raw datasets are used during the training process of the SentencePiece model.
 
+**Important Note:** Normally, you will only need to execute the steps above once. Unless you remove the models and datasets from your Drive.
+
 ### Model 3
 To generate samples or to fine-tune Model 3:
 1. Open the [Colaboratory Notebook](https://drive.google.com/open?id=1zyulaQ2yZ_eh97UngrgEW9AcXby9fD_P) in Colaboratory.
