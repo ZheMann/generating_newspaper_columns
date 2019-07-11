@@ -38,8 +38,8 @@ To generate samples or to fine-tune Model 2:
 6. Perform Step 3 and its sub-steps to fine-tune the model on the encoded datasets
 
 ## Training GPT-2 117M From scratch models
-1. Access the [model](https://drive.google.com/open?id=1mHfMEn5MLVVOVIo2E5NDxS4GQClgUY0o) and add them to your Drive by right-clicking on the 'checkpoint' directory and selecting 'Add to my Drive'. This directory also contains the encoded datasets.
-2. Access the [raw datasets](https://drive.google.com/open?id=17GnJC7I_l_XkQKbRtYFXvtnnpRvsmGxF) and add them to your Drive by right-clicking on the 'encoded_data' directory and selecting 'Add to my Drive'. These raw datasets are used during the training process of the SentencePiece model.
+1. Access the [model](https://drive.google.com/open?id=1mHfMEn5MLVVOVIo2E5NDxS4GQClgUY0o) and add them to your Drive by right-clicking on the 'checkpoint' directory and selecting 'Add to my Drive'. **NOTE: in opposition to Model 1 and Model 2, this model already contains the encoded datasets. Therefore, no additional step is required to access the encoded datasets.**
+2. Access the [raw datasets](https://drive.google.com/open?id=17GnJC7I_l_XkQKbRtYFXvtnnpRvsmGxF) and add them to your Drive by right-clicking on the 'encoded_data' directory and selecting 'Add to my Drive'. **NOTE: these raw datasets are not necessary to generate samples or to fine-tune Model 3. However, they are required to train the SentencePiece model and to re-encode the raw datasets.**
 
 **Important Note:** Normally, you will only need to execute the steps above once. Unless you remove the models and datasets from your Drive.
 
