@@ -38,8 +38,13 @@ To generate samples or to fine-tune Model 2:
 6. Perform Step 3 and its sub-steps to fine-tune the model on the encoded datasets
 
 ## Training GPT-2 117M From scratch models
-1. Access the [model](https://drive.google.com/open?id=1mHfMEn5MLVVOVIo2E5NDxS4GQClgUY0o) and add them to your Drive by right-clicking on the 'checkpoint' directory and selecting 'Add to my Drive'. **NOTE: in opposition to Model 1 and Model 2, this model already contains the encoded datasets. Therefore, no additional step is required to access the encoded datasets.**
-2. Access the [raw datasets](https://drive.google.com/open?id=17GnJC7I_l_XkQKbRtYFXvtnnpRvsmGxF) and add them to your Drive by right-clicking on the 'encoded_data' directory and selecting 'Add to my Drive'. **NOTE: these raw datasets are not necessary to generate samples or to fine-tune Model 3. However, they are required to train the SentencePiece model and to re-encode the raw datasets.**
+1. Access the [model](https://drive.google.com/open?id=1mHfMEn5MLVVOVIo2E5NDxS4GQClgUY0o) and add them to your Drive by right-clicking on the 'checkpoint' directory and selecting 'Add to my Drive'. 
+
+**NOTE: in opposition to Model 1 and Model 2, this model already contains the encoded datasets. Therefore, no additional step is required to access the encoded datasets.**
+
+2. Access the [raw datasets](https://drive.google.com/open?id=17GnJC7I_l_XkQKbRtYFXvtnnpRvsmGxF) and add them to your Drive by right-clicking on the 'encoded_data' directory and selecting 'Add to my Drive'. 
+
+**NOTE: these raw datasets are not necessary to generate samples or to fine-tune Model 3. However, they are required to train the SentencePiece model and to re-encode the raw datasets.**
 
 **Important Note:** Normally, you will only need to execute the steps above once. Unless you remove the models and datasets from your Drive.
 
@@ -60,7 +65,7 @@ We used the following datasets to fine-tune the language models, which can be ac
 3. Dutch e-books (24MB)
 
 ### Dutch newspaper columns (2MB)
-These newspaper columns were provided by a collaborating journalist during this research. The body of each columns is extracted and concatenated into a single text-file. Due to inconsistency between columns, most pre-processing is done manually.
+These newspaper columns were provided by a collaborating journalist during this research. The bodies of all columns are extracted and concatenated into a single text-file. Due to inconsistency between columns, most pre-processing is done manually.
 
 ### Dutch Wikipedia-pages (2.9GB)
 We built our own [wiki-scraper](https://github.com/ZheMann/wiki-scraper) to extract information from Wikipedia. The wiki-scraper ran for several days untill 2.4M out of 2.6M pages were downloaded. The text of all pages is concatenated into a single text-file.
