@@ -59,19 +59,21 @@ To generate samples or to fine-tune Model 3:
 7. Perform Step 4 and its sub-steps to see how to the SentencePiece model is trained as well as how the datasets are encoded
 
 ## Datasets used
-We used the following datasets to fine-tune the language models, which can be accessed [here](https://drive.google.com/open?id=17GnJC7I_l_XkQKbRtYFXvtnnpRvsmGxF):
+We used the following datasets to fine-tune the language models:
 1. Dutch newspaper columns (2MB) 
 2. Dutch Wikipedia-pages (2.9GB)
 3. Dutch e-books (24MB)
 
+The raw datasets can be accessed [here](https://drive.google.com/open?id=17GnJC7I_l_XkQKbRtYFXvtnnpRvsmGxF).
+
 ### Dutch newspaper columns (2MB)
-These newspaper columns were provided by a collaborating journalist during this research. The bodies of all columns are extracted and concatenated into a single text-file. Due to inconsistency between columns, most pre-processing is done manually.
+These newspaper columns were provided by a collaborating journalist during this research. The bodies of all columns are extracted and concatenated into a single text-file. Due to inconsistency between columns, most pre-processing is done manually. The raw text-file consisting of columns can be found in '`Datasets`'.
 
 ### Dutch Wikipedia-pages (2.9GB)
-We built our own [wiki-scraper](https://github.com/ZheMann/wiki-scraper) to extract information from Wikipedia. We downloaded 2.4M out of 2.6M Wiki-pages in a couple of days. Then, we concatenated the text of all pages into a single text-file.
+We built our own [wiki-scraper](https://github.com/ZheMann/wiki-scraper) to extract information from Wikipedia. We downloaded 2.4M out of 2.6M Wiki-pages in a couple of days. Then, we concatenated the text of all pages into a single text-file. The raw text-file consisting of Wiki-pages is not included in this repository, due to its large size. However, it is possible to access this file via Google Drive, as explained in section '**Datasets used**'.
 
 ### Dutch e-books (24MB)
-Project Gutenborg provides free, mostly older, e-books in several languages from which the copyright has expired. For this, we built a [Colaboratory Notebook](https://drive.google.com/open?id=1WCkbCMCay9a4NaUv7boAJjfCQ10JKUjv) to download all books for the Dutch language, to extract the right files and to concatenate the books into a single text-file. In addition, we had to manually remove English disclaimers from each book.
+Project Gutenborg provides free, mostly older, e-books in several languages from which the copyright has expired. For this, we built a [Colaboratory Notebook](https://drive.google.com/open?id=1WCkbCMCay9a4NaUv7boAJjfCQ10JKUjv) to download all books for the Dutch language, to extract the right files and to concatenate the books into a single text-file. In addition, we had to manually remove English disclaimers from each book.  The raw text-file consisting of e-books can be found in '`Datasets`'.
 
 ## About this repository
 This repository is built to support my Research Internship as a first year master student in Computing Science (April 2019 - July 2019).  During this research an experiment is performed, which consisted of the generation of texts by three differently trained language models. Subsequently, the quality of the texts were measured based on grammatical correctness and their coherence/logicalness.
